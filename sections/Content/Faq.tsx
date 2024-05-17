@@ -1,6 +1,7 @@
 import Header from "../../components/ui/SectionHeader.tsx";
 
 export interface Question {
+  hightlight?: boolean;
   question: string;
   /** @format html */
   answer: string;
@@ -52,10 +53,14 @@ const DEFAULT_PROPS = {
   },
 };
 
-function Question({ question, answer }: Question) {
+function Question({ question, answer, hightlight }: Question) {
   return (
     <details class="collapse collapse-arrow join-item border-t border-base-200">
-      <summary class="collapse-title text-lg font-medium">
+      <summary
+        class={`collapse-title text-lg ${
+          hightlight ? "font-extrabold" : "font-medium"
+        }`}
+      >
         {question}
       </summary>
       <div
