@@ -1,1 +1,1 @@
-{"name":"My New Page","path":"/example-path","sections":[{"__resolveType":"Benefits - 01"}],"seo":{"__resolveType":"website/sections/Seo/SeoV2.tsx"},"__resolveType":"website/pages/Page.tsx"}
+{"name":"My New Page","path":"/example-path","sections":[{"__resolveType":"site/sections/Exemplo.tsx","coisas":[{"__resolveType":"Benefits - 01"},{"__resolveType":"FAQ - 01"}]}],"seo":{"__resolveType":"website/sections/Seo/SeoV2.tsx"},"__resolveType":"website/pages/Page.tsx"}
