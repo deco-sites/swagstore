@@ -1,5 +1,3 @@
-import { render } from "preact-render-to-string";
-
 export interface Props {
   nodes: number,
   childs: number
@@ -17,4 +15,6 @@ const Fox = ({ nodes, childs, name }: { nodes: number, childs: number, name: str
 );
 
 
-export const renderExample = ({nodes, childs}: Props) => render(<Fox nodes={nodes} childs={childs} name={Math.random() + ""} />);
+export function renderExample({nodes, childs}: Props) {
+  return <Fox nodes={nodes} childs={childs} name={Math.random() + ""} />;
+}
