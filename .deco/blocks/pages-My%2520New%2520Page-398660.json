@@ -1,1 +1,1 @@
-{"name":"My New Page","path":"/example-path","sections":[{"__resolveType":"site/sections/NewIdSection.tsx","sug":{"__resolveType":"vtex/loaders/intelligentSearch/suggestions.ts","count":4}}],"seo":{"__resolveType":"website/sections/Seo/SeoV2.tsx"},"__resolveType":"website/pages/Page.tsx"}
+{"name":"My New Page","path":"/example-paths","sections":[{"__resolveType":"site/sections/NewIdSection.tsx","sug":{"__resolveType":"vtex/loaders/intelligentSearch/suggestions.ts","count":4}}],"seo":{"__resolveType":"website/sections/Seo/SeoV2.tsx"},"__resolveType":"website/pages/Page.tsx"}
