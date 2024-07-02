@@ -1,6 +1,7 @@
-import { Result } from "./noopTest.ts";
+export type Result = { status: string };
 
-export default async function loader(): Promise<Result> {
-    await fetch("https://rich-puma-16.deno.dev/noop?N=1000000");
+export type Props = {count: number}; 
+export default async function loader(props: Props): Promise<Result> {
+    await fetch("https://rich-puma-16.deno.dev/noop?N=" + props.count);
     return {status: "ok"};
 }
