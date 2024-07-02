@@ -1,7 +1,6 @@
 export type Result = { status: string };
 
-export type Props = {count: number}; 
-export default async function loader(props: Props): Promise<Result> {
-    fetch("https://rich-puma-16.deno.dev/noop?N=" + props.count);
+export default async function loader(_props: unknown, req: Request): Promise<Result> {
+    fetch("https://rich-puma-16.deno.dev/noop?N=" + (new URL(req.url)).searchParams.get("N"));
     return {status: "ok"};
 }
