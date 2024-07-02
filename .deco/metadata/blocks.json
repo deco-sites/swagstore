@@ -358,5 +358,11 @@
     "path": "/testload",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-TestLoad-981717.json": {
+    "name": "TestLoad",
+    "path": "/testasyncload",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }
