@@ -4,11 +4,13 @@
 
 import * as $$$$$$$$$$$0 from "./apps/decohub.ts";
 import * as $$$$$$$$$$$1 from "./apps/site.ts";
-import * as $$$3 from "./loaders/availableIcons.ts";
-import * as $$$4 from "./loaders/icons.ts";
+import * as $$$5 from "./loaders/availableIcons.ts";
+import * as $$$6 from "./loaders/icons.ts";
 import * as $$$0 from "./loaders/LastCommitGithub.ts";
 import * as $$$1 from "./loaders/Layouts/ProductCard.tsx";
 import * as $$$2 from "./loaders/List/Sections.tsx";
+import * as $$$3 from "./loaders/Test/noopAsyncTest.ts";
+import * as $$$4 from "./loaders/Test/noopTest.ts";
 import * as $$$$$$0 from "./sections/Animation/Animation.tsx";
 import * as $$$$$$1 from "./sections/Cards/IconCardsCarousel.tsx";
 import * as $$$$$$2 from "./sections/Cards/IconCardsCarouselWithImage.tsx";
@@ -63,15 +65,18 @@ import * as $$$$$$50 from "./sections/RenderForce.tsx";
 import * as $$$$$$51 from "./sections/RenderTest.tsx";
 import * as $$$$$$52 from "./sections/Social/InstagramPosts.tsx";
 import * as $$$$$$53 from "./sections/Social/WhatsApp.tsx";
-import * as $$$$$$54 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$54 from "./sections/Test/TestExemplo.tsx";
+import * as $$$$$$55 from "./sections/Theme/Theme.tsx";
 
 const manifest = {
   "loaders": {
-    "site/loaders/availableIcons.ts": $$$3,
-    "site/loaders/icons.ts": $$$4,
+    "site/loaders/availableIcons.ts": $$$5,
+    "site/loaders/icons.ts": $$$6,
     "site/loaders/LastCommitGithub.ts": $$$0,
     "site/loaders/Layouts/ProductCard.tsx": $$$1,
     "site/loaders/List/Sections.tsx": $$$2,
+    "site/loaders/Test/noopAsyncTest.ts": $$$3,
+    "site/loaders/Test/noopTest.ts": $$$4,
   },
   "sections": {
     "site/sections/Animation/Animation.tsx": $$$$$$0,
@@ -128,7 +133,8 @@ const manifest = {
     "site/sections/RenderTest.tsx": $$$$$$51,
     "site/sections/Social/InstagramPosts.tsx": $$$$$$52,
     "site/sections/Social/WhatsApp.tsx": $$$$$$53,
-    "site/sections/Theme/Theme.tsx": $$$$$$54,
+    "site/sections/Test/TestExemplo.tsx": $$$$$$54,
+    "site/sections/Theme/Theme.tsx": $$$$$$55,
   },
   "apps": {
     "site/apps/decohub.ts": $$$$$$$$$$$0,
